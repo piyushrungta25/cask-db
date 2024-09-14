@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cask-db", "CaskDb\cask-db.csproj", "{9ACB423C-8E4C-4529-970B-B39BDA4C79FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaskDb.Test", "CaskDb.Test\CaskDb.Test.csproj", "{FFEFF484-FF50-46AA-859C-AC07B065581F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaskDb.Bench", "CaskDb.Bench\CaskDb.Bench.csproj", "{2B599890-4F5C-46D4-B99F-AA2EE60DBF24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9ACB423C-8E4C-4529-970B-B39BDA4C79FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9ACB423C-8E4C-4529-970B-B39BDA4C79FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9ACB423C-8E4C-4529-970B-B39BDA4C79FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9ACB423C-8E4C-4529-970B-B39BDA4C79FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFEFF484-FF50-46AA-859C-AC07B065581F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFEFF484-FF50-46AA-859C-AC07B065581F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFEFF484-FF50-46AA-859C-AC07B065581F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFEFF484-FF50-46AA-859C-AC07B065581F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B599890-4F5C-46D4-B99F-AA2EE60DBF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B599890-4F5C-46D4-B99F-AA2EE60DBF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B599890-4F5C-46D4-B99F-AA2EE60DBF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B599890-4F5C-46D4-B99F-AA2EE60DBF24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
